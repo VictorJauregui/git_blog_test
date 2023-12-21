@@ -37,3 +37,23 @@
 .hidden {
     display: none;
 }
+
+.article_text {
+    width: 50%;
+}
+
+img {
+    width: 30%;
+    border-radius: 1rem;
+}
+.blog_article {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5rem 2rem;
+    border-radius: 1rem;
+}
+
+.blog_article:hover {
+    color: #F05032;
+}
